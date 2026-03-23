@@ -12,10 +12,10 @@ Inicialmente, realizei a preparação do projeto fazendo o fork do repositório 
 Na segunda etapa, foquei na criação da imagem Docker. Escrevi o arquivo Dockerfile.dev utilizando a imagem base do Fedora, configurando o diretório de trabalho e automatizando a instalação das dependências do sistema (como fish, python3 e sqlite) e do próprio Django.
 Após salvar o arquivo, construí a imagem com o comando docker build e iniciei o container de desenvolvimento mapeando a porta 8000 e montando o volume da pasta atual para a pasta /app dentro do container, utilizando o modo interativo com o terminal Fish.
 
-Build:
+###Build:
 ![](criando-imagem.png)
 
-Run:
+###Run:
 ![](run-docker.png)
 
 Com o container rodando, passei para a terceira etapa: a criação e configuração da aplicação Django. Iniciei o projeto raiz e criei o aplicativo chamado webapp. Em seguida, configurei o banco de dados padrão (SQLite3), adicionei o webapp na lista de aplicativos instalados no settings.py e ajustei a variável ALLOWED_HOSTS para permitir todas as conexões. Realizei as migrações do banco de dados e criei o superusuário administrador.
