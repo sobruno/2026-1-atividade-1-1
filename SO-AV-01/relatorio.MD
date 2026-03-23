@@ -24,22 +24,22 @@ Após salvar o arquivo, construí a imagem com o comando `docker build` e inicie
 ![Build](criando-imagem.PNG)
 
 ### Run: 
-![Run](run-docker.png)
+![Run](run-docker.PNG)
 
 ### 3. Configuração do Django
 Com o container rodando, passei para a terceira etapa: a criação e configuração da aplicação Django. Iniciei o projeto raiz e criei o aplicativo chamado `webapp`. Em seguida, configurei o banco de dados padrão (SQLite3), adicionei o `webapp` na lista de aplicativos instalados no `settings.py` e ajustei a variável `ALLOWED_HOSTS` para permitir todas as conexões. Realizei as migrações do banco de dados e criei o superusuário administrador.
 
 ### Iniciação do servidor Django: 
-![Iniciação do servidor Django](criando-django.png)
+![Iniciação do servidor Django](criando-django.PNG)
 
 ### Criando aplicação: 
-![Criando aplicação](criando-webapp.png)
+![Criando aplicação](criando-webapp.PNG)
 
 ### Migração do Banco de Dados: 
-![Migração do Banco de Dados](migrando-bd.png)
+![Migração do Banco de Dados](migrando-bd.PNG)
 
 ### Criando superuser: 
-![Criando superuser](criando-superuser.png)
+![Criando superuser](criando-superuser.PNG)
 
 ### 4. Roteamento e Validação
 Ainda na etapa de configuração, editei o arquivo `views.py` para criar uma visualização simples. Por fim, configurei o roteamento criando o arquivo `urls.py` do aplicativo e o incluindo no arquivo de rotas principal do projeto.
@@ -47,13 +47,13 @@ Ainda na etapa de configuração, editei o arquivo `views.py` para criar uma vis
 Na última etapa, iniciei o servidor de desenvolvimento interno do Django. Acessei a aplicação através do navegador no meu sistema hospedeiro para validar o funcionamento do mapeamento de portas e do servidor.
 
 ### Página inicial: 
-![Página inicial](tela-home.png)
+![Página inicial](tela-home.PNG)
 
 ### Página admin: 
-![Página admin](tela-admin.png)
+![Página admin](tela-admin.PNG)
 
 ### Página admin pós Logar: 
-![Página admin pós Logar](tela-admin-log.png)
+![Página admin pós Logar](tela-admin-log.PNG)
 
 ---
 
