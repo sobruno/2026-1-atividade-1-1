@@ -12,7 +12,7 @@ RUN dnf update -y && \
 # Instalar Django
 RUN pip3 install Django==4.2.7
 
-# Expor porta 8000
+# Expor a porta 8000
 EXPOSE 8000
 
 # Comando padrão
