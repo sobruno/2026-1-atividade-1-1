@@ -21,7 +21,7 @@ Na segunda etapa, foquei na criação da imagem Docker. Escrevi o arquivo `Docke
 Após salvar o arquivo, construí a imagem com o comando `docker build` e iniciei o container de desenvolvimento mapeando a porta 8000 e montando o volume da pasta atual para a pasta `/app` dentro do container, utilizando o modo interativo com o terminal Fish.
 
 ### Build: 
-![Build](app/criando-imagem.png)
+![Build](criando-imagem.PNG)
 
 ### Run: 
 ![Run](run-docker.png)
