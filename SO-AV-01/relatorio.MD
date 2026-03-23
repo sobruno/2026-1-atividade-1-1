@@ -13,7 +13,7 @@ O objetivo central desta prática foi construir um ambiente de desenvolvimento i
 A execução da prática foi dividida em quatro etapas principais, seguindo o roteiro proposto.
 
 ### 1. Preparação
-Inicialmente, realizei a preparação do projeto fazendo o fork do repositório da disciplina para a minha conta pessoal no GitHub e, em seguida, clonei o repositório para o VS Code. Dentro do diretório clonado, criei a pasta `app` e o arquivo `requirements.txt`.
+Inicialmente, realizei a preparação do projeto fazendo o fork do repositório da disciplina para a minha conta pessoal no GitHub e, em seguida, clonei o repositório para o VS Code. Dentro do diretório clonado, criei a pasta `app` e o arquivo `requirements.txt`, como requerido.
 
 ### 2. Criação da Imagem Docker
 Na segunda etapa, foquei na criação da imagem Docker. Escrevi o arquivo `Dockerfile.dev` utilizando a imagem base do Fedora, configurando o diretório de trabalho e automatizando a instalação das dependências do sistema (como fish, python3 e sqlite) e do próprio Django. 
